@@ -50,6 +50,14 @@ Add to your configuration file:
 ## Optional parameters:
 - `auth` – auth key obtained from terneo cloud
 - `debug` – true/false if you want to get more/less verbose logs
+- `apiTimeout` – request timeout in milliseconds, default is `5000`
+
+The `ip` option can be either a plain IP address (`192.168.1.90`) or a full local API URL
+(`http://192.168.1.90`, `http://192.168.1.90/api.html`, `http://192.168.1.90/api.cgi`).
+
+If the thermostat has local API write blocking enabled (`bLc`/`lanBlock`), Homebridge will still
+read temperature and state, but write operations will return a clear error. Disable `bLc`/Lan
+blocking on the thermostat or configure `auth` to allow changes.
 
 ## Where i can get ip address?
 

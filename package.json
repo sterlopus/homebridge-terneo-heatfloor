@@ -1,6 +1,6 @@
 {
     "name": "homebridge-terneo-heatfloor",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "",
     "main": "index.js",
     "dependencies": {
@@ -16,7 +16,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/wiistriker/homebridge-terneo-heatfloor.git"
+        "url": "git+https://github.com/sterlopus/homebridge-terneo-heatfloor.git"
     },
     "keywords": [
         "homebridge-plugin"
@@ -24,7 +24,7 @@
     "author": "wiistriker",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/wiistriker/homebridge-terneo-heatfloor/issues"
+        "url": "https://github.com/sterlopus/homebridge-terneo-heatfloor/issues"
     },
-    "homepage": "https://github.com/wiistriker/homebridge-terneo-heatfloor#readme"
+    "homepage": "https://github.com/sterlopus/homebridge-terneo-heatfloor#readme"
 }
